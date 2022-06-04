@@ -1,3 +1,7 @@
+import streamlit as st
+
+st.write("This is to check payments gateway APIs")
+
 import requests
 
 url = "https://mercury-uat.phonepe.com/v4/debit/"
